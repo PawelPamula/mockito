@@ -2070,7 +2070,6 @@ public class Mockito extends ArgumentMatchers {
      * Let's say you've stubbed <code>foo.bar()</code>.
      * If your code cares what <code>foo.bar()</code> returns then something else breaks(often before even <code>verify()</code> gets executed).
      * If your code doesn't care what <code>get(0)</code> returns then it should not be stubbed.
-     * Not convinced? See <a href="http://monkeyisland.pl/2008/04/26/asking-and-telling">here</a>.
      *
      * <p>
      * See examples in javadoc for {@link Mockito} class
